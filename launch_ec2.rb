@@ -118,7 +118,7 @@ class Launcher
     puts "[1] ebs"
     puts "[2] instance"
     print "[1-2]? "
-    @options[:arch] = gets.strip.to_i - 1
+    @options[:store] = gets.strip.to_i - 1
 
     # Choose region to select zone from
     puts "Which security key will you use?"
